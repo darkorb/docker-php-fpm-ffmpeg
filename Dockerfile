@@ -1,4 +1,4 @@
-FROM php:8.1.2-fpm
+FROM php:8.1.3-fpm
 
 LABEL org.opencontainers.image.authors="alex@a-cat-in.space"
 
