@@ -43,7 +43,7 @@ jobs:
             type=raw,value=latest,enable=${{ endsWith(github.ref, github.event.repository.default_branch) }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@9472e9021074a3cb3279ba431598b8836d40433f
+        uses: docker/build-push-action@a806b8fe1858aa27c1da44ef4b721a70460b75aa
         with:
           context: .
           platforms: linux/amd64,linux/arm64,linux/arm/v7
